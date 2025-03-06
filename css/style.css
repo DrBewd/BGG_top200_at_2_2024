@@ -598,3 +598,15 @@ display: none;
     height: auto !important;             /* Keep the aspect ratio based on height */
     width: auto !important;              /* Ensure width scales proportionally */
 }
+
+.2024-logo {
+    display: flex;            /* Use flexbox to arrange items side by side */
+    justify-content: center;  /* Centers the links horizontally within the container */
+    align-items: center;      /* Aligns the items vertically */
+}
+
+.2024-logo img {
+    max-height: 80px !important;         /* Set a maximum height for the images */
+    height: auto !important;             /* Keep the aspect ratio based on height */
+    width: 175px !important;              /* Ensure width scales proportionally */
+}

@@ -3,12 +3,12 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "logo url here",
+    "file": "https://raw.githubusercontent.com/DrBewd/BGG_top200_at_2_2024/main/images/bmc-logo.png",
     "link": "https://buymeacoffee.com/dr_bewd",
     "text": "Dr_Bewd"
   },
   "text": {
-    "more": "Add additional info here",
+    "more": "This is a network visualization of the 357 votes to 2024's edition of People's Choice With Two. Colors represent modularity class of the nodes (clusters of densely connected games). The visualization is hierarchically clustered by modularity, average weight, and average placement of the game.",
     "intro": "Network visualization of 2024 People's Choice Top Games With Two created by Dr_Bewd",
     "title": "BGG's top 2-player games (2024)"
   },
@@ -43,7 +43,7 @@
       "maxEdgeSize": 1,
       "minEdgeSize": 0.2,
       "minNodeSize": 1,
-      "maxNodeSize": 10
+      "maxNodeSize": 12
     },
     "mouseProperties": {
       "maxRatio": 20,

@@ -615,7 +615,8 @@ function showCluster(a) {
         $GP.info_name.html("<b>" + a + "</b>");
         $GP.info_data.hide();
         $GP.info_p.html("Group Members:");
-        $GP.info_link.find("ul").html(f.join(""));
+	f.sort().join("");  // Sort the array alphabetically and join the items into a string
+	$GP.info_link.find("ul").html(f.sort().join("")); // Update the HTML with the sorted array
         $GP.info.animate({width:'show'},350);
         $GP.search.clean();
 		$GP.cluster.hide();

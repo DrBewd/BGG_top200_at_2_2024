@@ -586,10 +586,17 @@ cursor: pointer;
 display: none;
 }
 
-/* Adjust the logo size */
-#logo {
-  max-width: 150px;  /* Adjust this to the desired width */
-  max-height: 50px;  /* Adjust this to the desired height */
-  width: auto;       /* Keep aspect ratio */
-  height: auto;      /* Keep aspect ratio */
+/* Center the logo inside the container */
+#mainpanel {
+  display: flex;
+  justify-content: center;  /* Centers the logo horizontally */
+  align-items: center;      /* Centers the logo vertically (if needed) */
+  flex-direction: column;   /* Ensures other elements in #mainpanel are stacked vertically */
+  padding: 20px;            /* Optional: Adds some space around the content */
+}
+
+/* Adjust the logo size to fit within the container */
+#mainpanel img {
+  max-width: 100%;   /* Ensures the logo fits within the container's width */
+  height: auto;      /* Maintains aspect ratio of the logo */
 }

@@ -594,7 +594,7 @@ display: none;
 }
 
 .link-container img {
-    max-height: 30px;         /* Set a maximum height for the images */
+    max-height: 60px;         /* Set a maximum height for the images */
     height: auto;             /* Keep the aspect ratio based on height */
     width: auto;              /* Ensure width scales proportionally */
 }

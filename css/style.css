@@ -586,3 +586,10 @@ cursor: pointer;
 display: none;
 }
 
+/* Adjust the logo size */
+#logo {
+  max-width: 150px;  /* Adjust this to the desired width */
+  max-height: 50px;  /* Adjust this to the desired height */
+  width: auto;       /* Keep aspect ratio */
+  height: auto;      /* Keep aspect ratio */
+}

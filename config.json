@@ -4,13 +4,13 @@
   "data": "data.json",
   "logo": {
     "file": "logo url here",
-    "link": "link here",
+    "link": "https://buymeacoffee.com/dr_bewd",
     "text": "Dr_Bewd"
   },
   "text": {
     "more": "Add additional info here",
-    "intro": "Add a short description here",
-    "title": "TITLE"
+    "intro": "Network visualization of 2024 People's Choice Top Games With Two created by Dr_Bewd",
+    "title": "BGG's top 2-player games (2024)"
   },
   "legend": {
     "edgeLabel": "Connection",

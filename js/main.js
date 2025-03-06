@@ -440,43 +440,36 @@ function nodeNormal() {
 
 function nodeActive(a) {
     var groupByDirection = false;
-    if (config.informationPanel.groupByEdgeDirection && config.informationPanel.groupByEdgeDirection == true)
-        groupByDirection = true;
-
+    if (config.informationPanel.groupByEdgeDirection && config.informationPanel.groupByEdgeDirection == true) groupByDirection = true;
+    
     sigInst.neighbors = {};
     sigInst.detail = !0;
     var b = sigInst._core.graph.nodesIndex[a];
     showGroups(!1);
-    var outgoing = {},
-        incoming = {},
-        mutual = {}; //SAH
+    var outgoing = {}, incoming = {}, mutual = {}; // SAH
     sigInst.iterEdges(function (b) {
         b.attr.lineWidth = !1;
         b.hidden = !0;
-
-        n = {
+        
+        var n = {
             name: b.label,
             colour: b.color,
-            size: b.size // Use edge size here
+            size: b.size // Access the size of the edge
         };
-
-        if (a == b.source) outgoing[b.target] = n; //SAH
-        else if (a == b.target) incoming[b.source] = n; //SAH
+        
+        if (a == b.source) outgoing[b.target] = n; // SAH
+        else if (a == b.target) incoming[b.source] = n; // SAH
         if (a == b.source || a == b.target) sigInst.neighbors[a == b.target ? b.source : b.target] = n;
-        b.hidden = !1;
-        b.attr.color = "rgba(0, 0, 0, 1)";
+        b.hidden = !1, b.attr.color = "rgba(0, 0, 0, 1)";
     });
-
-    var f = [];
     sigInst.iterNodes(function (a) {
         a.hidden = !0;
         a.attr.lineWidth = !1;
-        a.attr.color = a.color
+        a.attr.color = a.color;
     });
-
+    
     if (groupByDirection) {
-        //SAH - Compute intersection for mutual and remove these from incoming/outgoing
-        for (e in outgoing) {
+        for (var e in outgoing) {
             if (e in incoming) {
                 mutual[e] = outgoing[e];
                 delete incoming[e];
@@ -484,121 +477,105 @@ function nodeActive(a) {
             }
         }
     }
+    
+    var createListBySize = function (nodes) {
+        var listItems = [];
+        var sortedNodes = [];
 
-    var createList = function (c) {
-        var f = [];
-        var e = [],
-            g;
-        for (g in c) {
-            var d = sigInst._core.graph.nodesIndex[g];
-            d.hidden = !1;
-            d.attr.lineWidth = !1;
-            d.attr.color = c[g].colour;
-            a != g && e.push({
-                id: g,
-                name: d.label,
-                group: (c[g].name) ? c[g].name : "",
-                colour: c[g].colour,
-                size: c[g].size // Edge size here
-            });
+        for (var key in nodes) {
+            var node = sigInst._core.graph.nodesIndex[key];
+            node.hidden = false;
+            node.attr.lineWidth = false;
+            node.attr.color = nodes[key].colour;
+
+            if (a != key) {
+                sortedNodes.push({
+                    id: key,
+                    name: node.label,
+                    colour: nodes[key].colour,
+                    size: nodes[key].size // Add the size of the edge connecting the node
+                });
+            }
         }
 
-        // Sort the array by the size of the edge (size attribute of the connection)
-        e.sort(function (a, b) {
-            return b.size - a.size; // Sort by edge size in descending order
+        // Sort nodes in descending order based on the edge size
+        sortedNodes.sort(function (n1, n2) {
+            return n2.size - n1.size; // Sort by size in descending order
         });
 
-        var d = "";
-        for (g in e) {
-            c = e[g];
-            f.push('<li class="membership"><a href="#' + c.name + '" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + c.id + '\'])" onclick="nodeActive(\'' + c.id + '\')" onmouseout="sigInst.refresh()">' + c.name + "</a></li>");
-        }
-        return f;
+        // Generate HTML list items
+        sortedNodes.forEach(function (node) {
+            listItems.push('<li class="membership"><a href="#' + node.name + '" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + node.id + '\'])" onclick="nodeActive(\'' + node.id + '\')" onmouseout="sigInst.refresh()">' + node.name + "</a></li>");
+        });
+
+        return listItems;
     };
+    
+    var output = [];
 
     if (groupByDirection) {
-        var size = Object.size(mutual);
-        f.push("<h2>Mutual (" + size + ")</h2>");
-        if (size > 0) {
-            f = f.concat(createList(mutual));
-        } else {
-            f.push("No mutual links<br>");
-        }
+        var size;
 
-        size = Object.size(incoming);
-        f.push("<h2>Incoming (" + size + ")</h2>");
-        if (size > 0) {
-            f = f.concat(createList(incoming));
-        } else {
-            f.push("No incoming links<br>");
-        }
+        size = Object.keys(mutual).length;
+        output.push("<h2>Mutual (" + size + ")</h2>");
+        output = output.concat(size > 0 ? createListBySize(mutual) : ["No mutual links<br>"]);
 
-        size = Object.size(outgoing);
-        f.push("<h2>Outgoing (" + size + ")</h2>");
-        if (size > 0) {
-            f = f.concat(createList(outgoing));
-        } else {
-            f.push("No outgoing links<br>");
-        }
+        size = Object.keys(incoming).length;
+        output.push("<h2>Incoming (" + size + ")</h2>");
+        output = output.concat(size > 0 ? createListBySize(incoming) : ["No incoming links<br>"]);
 
-        // Now, sort the groups by their size
-        f.sort(function (a, b) {
-            var sizeA = a.match(/\((\d+)\)/);
-            var sizeB = b.match(/\((\d+)\)/);
-            if (sizeA && sizeB) {
-                return parseInt(sizeB[1]) - parseInt(sizeA[1]); // Sort groups by size in descending order
-            }
-            return 0; // If no size found, no sorting
-        });
+        size = Object.keys(outgoing).length;
+        output.push("<h2>Outgoing (" + size + ")</h2>");
+        output = output.concat(size > 0 ? createListBySize(outgoing) : ["No outgoing links<br>"]);
     } else {
-        f = f.concat(createList(sigInst.neighbors));
+        output = output.concat(createListBySize(sigInst.neighbors));
     }
 
-    // Activate the node
     b.hidden = !1;
     b.attr.color = b.color;
     b.attr.lineWidth = 6;
     b.attr.strokeStyle = "#000000";
     sigInst.draw(2, 2, 2, 2);
 
-    // Update the HTML with the sorted list
-    $GP.info_link.find("ul").html(f.join(""));
-
-    // Process the attributes of the active node
+    $GP.info_link.find("ul").html(output.join(""));
+    $GP.info_link.find("li").each(function () {
+        var a = $(this),
+            b = a.attr("rel");
+    });
     f = b.attr;
     if (f.attributes) {
         var image_attribute = false;
         if (config.informationPanel.imageAttribute) {
             image_attribute = config.informationPanel.imageAttribute;
         }
-        e = [];
+        var e = [];
         var temp_array = [];
-        g = 0;
         for (var attr in f.attributes) {
             var d = f.attributes[attr],
                 h = "";
             if (attr != image_attribute) {
-                h = '<span><strong>' + attr + ':</strong> ' + d + '</span><br/>'
+                h = '<span><strong>' + attr + ':</strong> ' + d + '</span><br/>';
             }
             e.push(h);
         }
 
         if (image_attribute) {
-            $GP.info_name.html("<div><img src=" + f.attributes[image_attribute] + " style=\"vertical-align:middle\" /> <span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])\" onmouseout=\"sigInst.refresh()\">" + b.label + "</span></div>");
+            $GP.info_name.html("<div><img src=" + f.attributes[image_attribute] + " style=\"vertical-align:middle\" /> <span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
         } else {
-            $GP.info_name.html("<div><span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])\" onmouseout=\"sigInst.refresh()\">" + b.label + "</span></div>");
+            $GP.info_name.html("<div><span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
         }
-        // Image field for attribute pane
+
         $GP.info_data.html(e.join("<br/>"));
     }
     $GP.info_data.show();
-    $GP.info_p.html("Connections:");
-    $GP.info.animate({ width: 'show' }, 350);
+    $GP.info_p.html("High frequency connections:");
+    $GP.info.animate({width: 'show'}, 350);
     $GP.info_donnees.hide();
     $GP.info_donnees.show();
     sigInst.active = a;
     window.location.hash = b.label;
 }
+
 
 
 function showCluster(a) {

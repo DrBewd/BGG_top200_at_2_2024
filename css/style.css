@@ -603,3 +603,15 @@ display: none;
   display: block;    /* Ensures the image behaves like a block element */
 }
 
+.link-container {
+    display: flex;            /* Use flexbox to arrange items side by side */
+    justify-content: center;  /* Centers the links horizontally within the container */
+    align-items: center;      /* Aligns the items vertically */
+    gap: 30px;                /* Adds space between the images (adjust as needed) */
+}
+
+.link-container img {
+    max-height: 30px;         /* Set a maximum height for the images */
+    height: auto;             /* Keep the aspect ratio based on height */
+    width: auto;              /* Ensure width scales proportionally */
+}

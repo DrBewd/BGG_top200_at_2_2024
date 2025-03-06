@@ -558,7 +558,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.107868671417236
         },
         {
@@ -575,7 +575,7 @@
                 "Standard Deviation": "0.5",
                 "Total Votes": "2"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.023970603942871
         },
         {
@@ -1425,7 +1425,7 @@
                 "Standard Deviation": "1.5",
                 "Total Votes": "2"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.263679027557373
         },
         {
@@ -1816,7 +1816,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.083898067474365
         },
         {
@@ -2156,7 +2156,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.167795658111572
         },
         {
@@ -2852,7 +2852,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.167795658111572
         },
         {
@@ -3090,7 +3090,7 @@
                 "Standard Deviation": "5.5",
                 "Total Votes": "2"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.3355913162231445
         },
         {
@@ -3107,7 +3107,7 @@
                 "Standard Deviation": "0.9",
                 "Total Votes": "3"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.3355913162231445
         },
         {
@@ -3481,7 +3481,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.227722644805908
         },
         {
@@ -3736,7 +3736,7 @@
                 "Standard Deviation": "0.5",
                 "Total Votes": "2"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.431474685668945
         },
         {
@@ -3753,7 +3753,7 @@
                 "Standard Deviation": "3.5",
                 "Total Votes": "2"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.167795658111572
         },
         {
@@ -3940,7 +3940,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.0
         },
         {
@@ -4212,7 +4212,7 @@
                 "Standard Deviation": "6.3",
                 "Total Votes": "22"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 10.212089538574219
         },
         {
@@ -5061,7 +5061,7 @@
                 "Standard Deviation": "5.5",
                 "Total Votes": "17"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 9.181344985961914
         },
         {
@@ -5095,7 +5095,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.143825054168701
         },
         {
@@ -5434,7 +5434,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.227722644805908
         },
         {
@@ -5502,7 +5502,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.023970603942871
         },
         {
@@ -5825,7 +5825,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.0719122886657715
         },
         {
@@ -6487,7 +6487,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.119853973388672
         },
         {
@@ -6572,7 +6572,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.035956382751465
         },
         {
@@ -6793,7 +6793,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.059926986694336
         },
         {
@@ -6963,7 +6963,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.203752040863037
         },
         {
@@ -7337,7 +7337,7 @@
                 "Standard Deviation": "5.3",
                 "Total Votes": "32"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 11.61438274383545
         },
         {
@@ -7710,7 +7710,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.191766738891602
         },
         {
@@ -7761,7 +7761,7 @@
                 "Standard Deviation": "2.3",
                 "Total Votes": "4"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.551328659057617
         },
         {
@@ -7998,7 +7998,7 @@
                 "Standard Deviation": "4.8",
                 "Total Votes": "6"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.587285041809082
         },
         {
@@ -8032,7 +8032,7 @@
                 "Standard Deviation": "4.2",
                 "Total Votes": "4"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.491401672363281
         },
         {
@@ -8168,7 +8168,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.083898067474365
         },
         {
@@ -8219,7 +8219,7 @@
                 "Standard Deviation": "1.5",
                 "Total Votes": "2"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.191766738891602
         },
         {
@@ -8287,7 +8287,7 @@
                 "Standard Deviation": "6.5",
                 "Total Votes": "2"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.167795658111572
         },
         {
@@ -8491,7 +8491,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.059926986694336
         },
         {
@@ -9120,7 +9120,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.131839275360107
         },
         {
@@ -9137,7 +9137,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.143825054168701
         },
         {
@@ -9239,7 +9239,7 @@
                 "Standard Deviation": "6.6",
                 "Total Votes": "4"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.527358055114746
         },
         {
@@ -9409,7 +9409,7 @@
                 "Standard Deviation": "3.8",
                 "Total Votes": "4"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.491401672363281
         },
         {
@@ -9460,7 +9460,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.0719122886657715
         },
         {
@@ -9579,7 +9579,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.179780960083008
         },
         {
@@ -9681,7 +9681,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.083898067474365
         },
         {
@@ -9834,7 +9834,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.0719122886657715
         },
         {
@@ -10157,7 +10157,7 @@
                 "Standard Deviation": "5.5",
                 "Total Votes": "2"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.263679027557373
         },
         {
@@ -10378,7 +10378,7 @@
                 "Standard Deviation": "3.2",
                 "Total Votes": "5"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.539343357086182
         },
         {
@@ -10922,7 +10922,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.0119853019714355
         },
         {
@@ -11517,7 +11517,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.059926986694336
         },
         {
@@ -12180,7 +12180,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.167795658111572
         },
         {
@@ -12673,7 +12673,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.203752040863037
         },
         {
@@ -12877,7 +12877,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.143825054168701
         },
         {
@@ -12996,7 +12996,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.083898067474365
         },
         {
@@ -13521,7 +13521,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.179780960083008
         },
         {
@@ -13878,7 +13878,7 @@
                 "Standard Deviation": "5.6",
                 "Total Votes": "4"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.587285041809082
         },
         {
@@ -14065,7 +14065,7 @@
                 "Standard Deviation": "5.2",
                 "Total Votes": "4"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.6591973304748535
         },
         {
@@ -14116,7 +14116,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.119853973388672
         },
         {
@@ -14269,7 +14269,7 @@
                 "Standard Deviation": "2.5",
                 "Total Votes": "2"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.215737342834473
         },
         {
@@ -14558,7 +14558,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.0479416847229
         },
         {
@@ -14813,7 +14813,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.179780960083008
         },
         {
@@ -14881,7 +14881,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.0
         },
         {
@@ -15697,7 +15697,7 @@
                 "Standard Deviation": "7.0",
                 "Total Votes": "9"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 8.030745506286621
         },
         {
@@ -15782,7 +15782,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.0
         },
         {
@@ -15833,7 +15833,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.215737342834473
         },
         {
@@ -15952,7 +15952,7 @@
                 "Standard Deviation": "2.2",
                 "Total Votes": "5"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.563314437866211
         },
         {
@@ -16292,7 +16292,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.119853973388672
         },
         {
@@ -16326,7 +16326,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.0119853019714355
         },
         {
@@ -16768,7 +16768,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.131839275360107
         },
         {
@@ -17380,7 +17380,7 @@
                 "Standard Deviation": "5.5",
                 "Total Votes": "4"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.503386974334717
         },
         {
@@ -17482,7 +17482,7 @@
                 "Standard Deviation": "2.5",
                 "Total Votes": "2"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.143825054168701
         },
         {
@@ -17975,7 +17975,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.119853973388672
         },
         {
@@ -18128,7 +18128,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.095883369445801
         },
         {
@@ -18179,7 +18179,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.0
         },
         {
@@ -18247,7 +18247,7 @@
                 "Standard Deviation": "1.0",
                 "Total Votes": "2"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.107868671417236
         },
         {
@@ -18332,7 +18332,7 @@
                 "Standard Deviation": "5.0",
                 "Total Votes": "2"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.227722644805908
         },
         {
@@ -18978,7 +18978,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.095883369445801
         },
         {
@@ -19080,7 +19080,7 @@
                 "Standard Deviation": "2.1",
                 "Total Votes": "4"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.46743106842041
         },
         {
@@ -19249,7 +19249,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.083898067474365
         },
         {
@@ -19283,7 +19283,7 @@
                 "Standard Deviation": "6.7",
                 "Total Votes": "4"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.479416370391846
         },
         {
@@ -19469,7 +19469,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "2"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.059926986694336
         },
         {
@@ -19554,7 +19554,7 @@
                 "Standard Deviation": "5.4",
                 "Total Votes": "3"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.41948938369751
         },
         {
@@ -19673,7 +19673,7 @@
                 "Standard Deviation": "4.7",
                 "Total Votes": "6"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.9828033447265625
         },
         {
@@ -20081,7 +20081,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.107868671417236
         },
         {
@@ -20370,7 +20370,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.095883369445801
         },
         {
@@ -20914,7 +20914,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(255,102,102)",
+            "color": "rgb(153,153,255)",
             "size": 7.0119853019714355
         },
         {
@@ -21016,7 +21016,7 @@
                 "Standard Deviation": "0.0",
                 "Total Votes": "1"
             },
-            "color": "rgb(188,69,255)",
+            "color": "rgb(255,153,0)",
             "size": 7.059926986694336
         },
         {

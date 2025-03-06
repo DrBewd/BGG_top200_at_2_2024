@@ -594,22 +594,7 @@ display: none;
 }
 
 .link-container img {
-    max-height: 80px !important;         /* Set a maximum height for the images */
+    max-height: 60px !important;         /* Set a maximum height for the images */
     height: auto !important;             /* Keep the aspect ratio based on height */
     width: auto !important;              /* Ensure width scales proportionally */
 }
-
-.2024-logo {
-    display: flex;            /* Use flexbox to arrange items side by side */
-    justify-content: center;  /* Centers the links horizontally within the container */
-    align-items: center;      /* Aligns the items vertically */
-    width: 100%; /* Ensure it spans the full width */
-}
-
-.2024-logo img {
-    max-width: 175px !important; /* Limit width */
-    max-height: 80px !important; /* Limit height */
-    width: auto !important; /* Maintain aspect ratio */
-    height: auto !important; /* Maintain aspect ratio */
-}
-

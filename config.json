@@ -8,7 +8,7 @@
     "text": "Dr_Bewd"
   },
   "text": {
-    "more": "This is a network visualization of the 357 votes to 2024's edition of People's Choice With Two. Colors represent modularity class of the nodes (clusters of densely connected games). The visualization is hierarchically clustered by modularity, average weight, and average placement of the game.",
+    "more": "This is a network visualization of the 357 votes to 2024's edition of People's Choice With Two. Colors represent the modularity class of the nodes (i.e., clusters of densely connected games). The visualization is hierarchically clustered by modularity, average weight, and average placement of the game. All the games that received at least one vote are included, but note that some games were aggregated. The visualization is filtered to only display connections that appeared two or more time. The size of the nodes is proportional to the obtained score and the color of the connections is darker when the connection is observed more frequently.",
     "intro": "Network visualization of 2024 People's Choice Top Games With Two created by Dr_Bewd",
     "title": "BGG's top 2-player games (2024)"
   },

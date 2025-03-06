@@ -324,7 +324,7 @@
             "size": 11.206878662109375
         },
         {
-            "label": "viticulture essential edition",
+            "label": "viticulture",
             "x": 162.93885803222656,
             "y": -564.8956909179688,
             "id": "36",
@@ -1174,7 +1174,7 @@
             "size": 7.119853973388672
         },
         {
-            "label": "gloomhaven",
+            "label": "gloomhaven: jaws of the lion",
             "x": -316.4265441894531,
             "y": -212.6853790283203,
             "id": "21",
@@ -1208,7 +1208,7 @@
             "size": 7.0719122886657715
         },
         {
-            "label": "clank!: a deck-building adventure",
+            "label": "clank!: catacombs",
             "x": -420.0056457519531,
             "y": 210.6923828125,
             "id": "50",
@@ -5948,7 +5948,7 @@
             "size": 7.095883369445801
         },
         {
-            "label": "dune: imperium \u2013 uprising",
+            "label": "dune: imperium",
             "x": 352.8141784667969,
             "y": -181.5207061767578,
             "id": "64",
@@ -7917,7 +7917,7 @@
             "size": 7.059926986694336
         },
         {
-            "label": "the castles of burgundy: special edition",
+            "label": "the castles of burgundy",
             "x": 63.02815246582031,
             "y": -637.93359375,
             "id": "0",
@@ -10484,7 +10484,7 @@
             "size": 7.059926986694336
         },
         {
-            "label": "battle line",
+            "label": "schotten totten",
             "x": 245.8309326171875,
             "y": 655.3780517578125,
             "id": "24",
